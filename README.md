@@ -1,10 +1,10 @@
 # Bamazon-MySQL & Node.js
 
-##Overview
+## Overview
 
 In this activity, I created an Amazon-like storefront with the MySQL database and Node.js . The application takes in orders from the "customer" and depletes the stock from the store's inventory as well as displays the total cost of that item being sold. 
 
-##MySQL Database
+## MySQL Database
 
 Five different columns were created that contained the data for:
 
@@ -20,7 +20,7 @@ Five different columns were created that contained the data for:
 
 The theme for the database was "Greenhouse" items and 10 "mock" data rows were inserted into the MySQL database. 
 
-##Running the Application
+## Running the Application
 
 Running Node.js in the terminal with the file name would display all of the items available for sale. Immediately after the items are displayed, the user would be prompted with two messages:
 
@@ -29,10 +29,10 @@ Running Node.js in the terminal with the file name would display all of the item
 
 The Inquirer.js NPM package was used as the tool to prompt the customer for these messages. Inquirer.js is a collection of common interactive command-line user interfaces.
 
-##Examples
+## Examples
 
 If a customer enters a quantity that excedes the current stock quantity of that item, the customer will get a message of "Insufficient quantity!" and prevent them from going through:
-![](insufficent.gif)
+![](insufficient.gif)
 
 If a customer enters a valid quantity, they will be prompted with a message of "You can buy!", the remaining stock quantity and the total cost to the customer (price * quantity purchased). 
 ![](succulents.gif)
